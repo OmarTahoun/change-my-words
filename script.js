@@ -30,7 +30,6 @@ function doKeyPress(e){
     var text;
     var selected;
     if (window.getSelection) {
-      console.log("if");
         text = window.getSelection().toString();
     }
     if(text.length > 0){

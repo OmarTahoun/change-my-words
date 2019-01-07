@@ -1,9 +1,7 @@
 {
-   "name": "Getting Started Example",
+   "name": "Change my words",
    "version": "1.0",
-   "description": "Change_my_words",
-   "permissions": ["http://*/*", "tabs"],
-   "web_accessible_resources" : ["eng_ar.js"],
+   "description": "Change your text from english to arabic letters",
    "content_scripts": [
    {
      "matches": ["http://*/*", "https://*/*"],
